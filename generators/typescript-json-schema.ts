@@ -30,7 +30,7 @@ const typescriptJsonSchemaGenerate = getGenerate(
 );
 
 runAsync(async () => {
-  await typescriptJsonSchemaGenerate(resolve('./src/simple.tsx'), 'Simple');
+  await typescriptJsonSchemaGenerate(resolve('./src/simple.ts'), 'Simple');
 
   await typescriptJsonSchemaGenerate(resolve('./src/index.tsx'), 'ExampleProps');
 });

@@ -18,7 +18,7 @@ const tsJsonSchemaGeneratorGenerate = getGenerate(
 );
 
 runAsync(async () => {
-  await tsJsonSchemaGeneratorGenerate(resolve('./src/simple.tsx'), 'Simple');
+  await tsJsonSchemaGeneratorGenerate(resolve('./src/simple.ts'), 'Simple');
 
   await tsJsonSchemaGeneratorGenerate(resolve('./src/index.tsx'), 'ExampleProps');
 });

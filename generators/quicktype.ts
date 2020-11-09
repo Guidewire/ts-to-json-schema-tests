@@ -54,7 +54,7 @@ const quicktypeGenerate = getGenerate('quicktype', async (source, typeName) => {
 });
 
 runAsync(async () => {
-  await quicktypeGenerate(resolve('./src/simple.tsx'), 'Simple');
+  await quicktypeGenerate(resolve('./src/simple.ts'), 'Simple');
 
   await quicktypeGenerate(resolve('./src/index.tsx'), 'ExampleProps');
 });

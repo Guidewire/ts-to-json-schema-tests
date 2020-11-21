@@ -2,15 +2,19 @@
   "type": "object",
   "properties": {
     "name": {
+      "description": "Example string",
       "type": "string"
     },
     "count": {
+      "description": "Example number",
       "type": "number"
     },
     "optional": {
+      "description": "Example optional",
       "type": "number"
     },
     "callback": {
+      "description": "Example function type",
       "type": "object"
     }
   },

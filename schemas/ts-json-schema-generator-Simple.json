@@ -1,35 +1,33 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Simple",
   "definitions": {
     "Simple": {
       "type": "object",
       "properties": {
         "name": {
-          "description": "Example string",
           "type": "string",
-          "title": "name"
+          "description": "Example string"
         },
         "count": {
-          "description": "Example number",
           "type": "number",
-          "title": "count"
+          "description": "Example number"
         },
         "optional": {
-          "description": "Example optional",
           "type": "number",
-          "title": "optional"
+          "description": "Example optional"
         },
         "callback": {
-          "description": "Example function type",
-          "type": "object",
-          "title": "callback"
+          "type": "string",
+          "description": "Example function type"
         }
       },
       "required": [
-        "callback",
+        "name",
         "count",
-        "name"
-      ]
+        "callback"
+      ],
+      "additionalProperties": false
     }
   }
 }

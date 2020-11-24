@@ -37,6 +37,6 @@ yarn
 
 | Library                                                                      | Command                                  | `Simple` | `ExampleProps` |
 | ---------------------------------------------------------------------------- | ---------------------------------------- | -------- | -------------- |
-| [typescript-json-schema](https://github.com/YousefED/typescript-json-schema) | `yarn generate:typescript-json-schema`   | ✅       | ❌             |
+| [typescript-json-schema](https://github.com/YousefED/typescript-json-schema) | `yarn generate:typescript-json-schema`   | ✅       | ✅             |
 | [ts-json-schema-generator](https://github.com/vega/ts-json-schema-generator) | `yarn generate:ts-json-schema-generator` | ✅       | ❌             |
 | [quicktype](https://github.com/quicktype/quicktype)                          | `yarn generate:quicktype`                | ✅       | ❌             |
